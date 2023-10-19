@@ -218,17 +218,19 @@ button{
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .contatos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 50px;
 }
 .contato-nome h2{
-    font-size: 80px;
+    font-size: 35px;
     color: #474646;
+}
+.contato-ultimo a img{
+    width: 30px;
 }
 @media(max-width:800px){
     .final{
@@ -246,4 +248,8 @@ button{
 }
 .projeto-especifico img{
     visibility: hidden;
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
 }
