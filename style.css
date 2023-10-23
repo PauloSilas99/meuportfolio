@@ -40,12 +40,15 @@ button{
 }
 .info-esquerda::before{
     content:"";
-    width: 95px;
     height: 5px;
-    display: inline;
-    position: absolute;
+    width: 0px;
+    display: block;
     background:linear-gradient(0deg, rgba(21,121,9,1) 0%, rgba(26,209,4,1) 50%) ;
-    margin-top:-5px;
+    
+}
+.info-esquerda:hover:before{
+    transition: 0.5s;
+    width: 100%;
 }
 @media(max-width:700px){
     header{
