@@ -252,6 +252,16 @@ button{
 .projeto-especifico img{
     visibility: hidden;
 }
+.projeto-especifico .nova-img{
+    width:200px;
+    margin-right: 30px;
+}
+@media(max-width:800px){
+    .projeto-especifico .nova-img{
+        width: 120px;
+        margin: 0 auto;
+    }
+}
 footer{
     text-align: center;
     padding-bottom: 20px;
